@@ -1,0 +1,69 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #999;
+}
+.redTm {
+    color: #c40000 !important;
+} 
+a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+/*------------ 置顶导航 */
+nav.top {
+    background-color: #f2f2f2;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+nav.top span,nav.top a {
+    color: #999;
+    margin: 0 10px 0 10px;
+}
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* --------------搜索框 */
+img.logo {
+    position: absolute;
+    z-index: -1;
+    top: 30px;
+    left: 0;
+}
+div.search {
+    background-color: #c40000;
+    margin: 50px auto;
+    padding: 1px;
+    height: 40px;
+    width: 400px;
+    display: block;
+}
+div.search input {
+    width: 275px;
+    border: 1px solid transparent;
+    height: 36px;
+    outline: none;
+}
+div .searchBut {
+    border: 1px solid transparent;
+    width: 110px;
+    background-color: #c40000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} 
+div.searchList {
+    margin-top: 3px;
+}
+div .searchList a {
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+
+}
+div .searchList span {
+    color: #999;
+}
